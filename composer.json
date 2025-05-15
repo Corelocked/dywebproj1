@@ -1,0 +1,12 @@
+{
+    "name": "fishball/dywebprog1",
+    "description": "hellow",
+    "autoload": {
+        "psr-4": {
+            "Fishball\\Dywebprog1\\": "src/"
+        }
+    },
+    "require": {
+        "cocur/slugify": "^4.6"
+    }
+}
