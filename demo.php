@@ -1,6 +1,7 @@
 <?php
 
 // // odd or even
+
 // $num = readline("enter a number");
 // $result = "Even";
 // if ($num % 2 != 0){
@@ -58,7 +59,7 @@ echo $slugify->slugify("This is the new title")."\n";
 $uuid = Uuid::uuid4();
 echo $uuid->toString();
 
-$faker = faker\Factory::create();
+$faker = Faker\Factory::create();
 echo $faker->name()."\n";
 echo $faker->email()."\n";
 echo $faker->phoneNumber()."\n";
